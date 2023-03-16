@@ -1,0 +1,20 @@
+{
+  "name": "bbc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "newScrapper.js",
+  "scripts": {
+    "start": "node newScrapper.js",
+    "dev": "nodemon newScrapper.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.21",
+    "rss-parser": "^3.12.0",
+    "telegraf": "^4.12.2"
+  }
+}

@@ -15,7 +15,7 @@ bot.start((ctx) => {
 
 let latestNews = null;
 
-setInterval(async () => {
+setInterval(async (next) => {
   try {
     const feed = await parser.parseURL(FEED_URL)
     
@@ -33,7 +33,7 @@ setInterval(async () => {
     }
     else return
   } catch (error) {
-    console.error("err", error)
+    next(error)
   }
 }, 60000) // fetch every minute
 

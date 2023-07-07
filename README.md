@@ -1,2 +1,2 @@
 # bbc-bot
-# This is a telegram bot that scrapes sports info from BBC
+# This is a telegram bot that fetches sports info from BBC
